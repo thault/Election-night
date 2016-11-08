@@ -1,0 +1,37 @@
+<html>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <body style="width:100%;height:100%">
+            <a id="left" class="twitter-timeline" data-theme="dark" href="https://twitter.com/HillaryClinton" data-width="33%" data-height="100%">Tweets by HillaryClinton</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a id="center" class="twitter-timeline" data-theme="dark" href="https://twitter.com/thault/lists/election-2016" data-height="100%" data-width="33%">Tweets by HillaryClinton</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a id="right" class="twitter-timeline" data-theme="dark" href="https://twitter.com/realDonaldTrump" data-height="100%" data-width="33%">Tweets by HillaryClinton</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+    </body>
+    <script>
+            setInterval(function(){
+                $("#left").fadeOut(800,function(){
+                    $("#mydiv").fadeIn();
+                });
+            }, 5000);   
+
+    </script>
+    
+    <script>
+            setInterval(function(){
+                $("#center").fadeOut(800,function(){
+                    $("#mydiv").fadeIn();
+                });
+            }, 5000);   
+
+    </script>
+    
+    <script>
+            setInterval(function(){
+                $("#right").fadeOut(800,function(){
+                    $("#mydiv").fadeIn();
+                });
+            }, 5000);   
+
+    </script>
